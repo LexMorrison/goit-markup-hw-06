@@ -492,7 +492,7 @@ img {
 }
 
 .footer-form {
-  padding-left: 80px;
+  margin-left: 80px;
   display: block;
 }
 
@@ -582,7 +582,7 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  padding: 24px;
+  padding: 72px 24px 24px;
 }
 
 .modal-close {
@@ -595,8 +595,6 @@ img {
   display: flex;
   justify-content: center;
   margin-left: auto;
-  margin-bottom: 20px;
-  transition: background-color var(--delay-hover);
 }
 
 .modal-close:is(:focus, :hover) {
@@ -616,7 +614,7 @@ img {
   line-height: 1.5;
   text-align: center;
   color: var(--brand-color-dark);
-  margin-bottom: 20px;
+  margin-bottom: 14px;
 }
 
 .modal-form-desc {
@@ -627,6 +625,11 @@ img {
   letter-spacing: 0.04em;
   color: var(--sub-text-label);
   margin-bottom: 4px;
+}
+
+.modal-sub-label {
+  display: block;
+  margin-bottom: 8px;
 }
 
 .modal-form-input-wrapper {
@@ -642,7 +645,7 @@ img {
   padding-left: 38px;
   color: #000000;
   font-size: 18px;
-  margin-bottom: 8px;
+
   transition: border-color var(--delay-hover);
 }
 
@@ -674,6 +677,10 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border-color var(--delay-hover);
+}
+
+.modal-sub-label-margin {
+  display: block;
   margin-bottom: 16px;
 }
 
